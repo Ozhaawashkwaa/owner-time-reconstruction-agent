@@ -1,0 +1,23 @@
+# Core
+python-dotenv==1.0.0
+
+# HTTP & API
+requests==2.31.0
+
+# Anthropic SDK (pour génération messages)
+anthropic==0.40.0
+
+# Google APIs (si on a besoin de Google Drive direct, mais préférer MCP)
+google-api-python-client==2.108.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
+
+# Pour la timezone
+pytz==2023.3
+
+# CLI parsing
+click==8.1.7
+
+# Pour les tests
+pytest==7.4.3
+pytest-mock==3.12.0

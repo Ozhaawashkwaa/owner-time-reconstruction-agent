@@ -1,0 +1,43 @@
+# Environnement
+config/.env
+config/.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.windsurf/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ActivityWatch local copies (jamais commit ces 57MB)
+*.db
+/tmp/aw_*
+
+# Logs
+logs/
+*.log
+
+# Test outputs
+test_outputs/
+*.test.json
+
+# Temporary
+tmp/
+temp/
